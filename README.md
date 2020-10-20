@@ -58,6 +58,22 @@ The AAR is published on Maven Central:
 compile 'com.soundcloud.android:android-crop:1.0.1@aar'
 ```
 
+#### Theme
+
+Just add the "@style/Widget.CropImageView" theme to the activity com.soundcloud.android.crop.CropImageActivity. 
+To show the showHandles use this :
+
+```groovy
+    <item name="showHandles">always</item>
+```
+
+To show the showThirds use this :
+
+```groovy
+    <item name="showThirds">true</item>
+```
+
+
 ## How does it look?
 
 ![android-crop screenshot](screenshot.png)
